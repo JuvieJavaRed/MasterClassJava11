@@ -22,7 +22,7 @@ public class ByteShortIntLong {
         byte myMaxByteValue = Byte.MAX_VALUE;
         System.out.println("My minimum byte value is "+myMinByteValue);
         System.out.println("My maximum byte value is "+myMaxByteValue);
-
+        byte myNewByteValue = (byte) (myMinByteValue/2);
     }
 
     public static void shortMinMaxValues(){
@@ -30,6 +30,7 @@ public class ByteShortIntLong {
         short myMaxShortValue = Short.MAX_VALUE;
         System.out.println("My minimum short value is "+myMinShortValue);
         System.out.println("My maximum short value is "+myMaxShortValue);
+        short myNewShortValue = (short)(myMinShortValue/2);
     }
 
     public static void longMinMaxValues(){
@@ -37,5 +38,6 @@ public class ByteShortIntLong {
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("My minimum long value is "+myMinLongValue);
         System.out.println("My maximum long value is "+myMaxLongValue);
+        long myNewLongValue = (myMinLongValue/2);
     }
 }
