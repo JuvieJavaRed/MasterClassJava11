@@ -40,4 +40,12 @@ public class ByteShortIntLong {
         System.out.println("My maximum long value is "+myMaxLongValue);
         long myNewLongValue = (myMinLongValue/2);
     }
+
+    //the challenge
+    public static void primitivesChallenge(){
+        int validIntNumber = 12;
+        byte validByteNumber = 12;
+        short validShortNumber = 13;
+        
+    }
 }
