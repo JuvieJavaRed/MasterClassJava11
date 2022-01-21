@@ -94,5 +94,26 @@ public class OperatorsAndOperands {
             System.out.println("Logical OR condition has passed");
         }
 
+        //Tenary operators....
+        boolean isCar = false;
+        boolean  wasCar = isCar ? true:false;//shortcut of if-then-else statement
+        if(wasCar){
+            System.out.println("wasCar is true "+wasCar);
+        }
+
+        double myFirstDouble = 20.00d;
+        double mySecondDouble = 80.00d;
+        double myFirstResult = (myFirstDouble + mySecondDouble) * 100;
+        System.out.println(myFirstResult);
+        double mySecondResult = myFirstResult % 40.00d;
+        System.out.println(mySecondResult);
+        double remainder = mySecondResult;
+        boolean myRemainderVaue = (myFirstResult % 40 == 0) ? true : false;
+        System.out.println("The remainder value evaluation is "+myRemainderVaue);
+        if(!myRemainderVaue){
+            System.out.println("Got some remainder");
+        }
+
+
     }
 }
