@@ -1,5 +1,8 @@
 package com.juviejavared.learning;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class MasterClassChallenges {
 
     public static void main (String [] args){
@@ -126,9 +129,19 @@ public class MasterClassChallenges {
         if(firstNumberBoolean || secondNumberBoolean || thirdNumberBoolean){
             return true;
         }
+        String firstNumberBinary = Integer.toBinaryString(10);
+        System.out.println(Integer.toBinaryString(1300223));
+        String stringToConvert = Integer.toBinaryString(1300223);
+        String [] splitString = stringToConvert.split("");
+        ArrayList<String> convertedArrayList = new ArrayList<>(Arrays.asList(splitString));
+        for(int i = 0; i < convertedArrayList.size(); i ++){
+
+        }
         return false;
+
     }
 
+    //method overloading challenge
 
 
 
